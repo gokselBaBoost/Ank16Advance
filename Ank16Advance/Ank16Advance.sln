@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.ConsoleApp", "Solid.ConsoleApp\Solid.ConsoleApp.csproj", "{792B4A6C-569F-4B48-A858-DF211C130F88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.ConsoleApp", "Solid.ConsoleApp\Solid.ConsoleApp.csproj", "{792B4A6C-569F-4B48-A858-DF211C130F88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ConsoleApp", "DesignPatterns.ConsoleApp\DesignPatterns.ConsoleApp.csproj", "{32F6BE8D-E8F2-43C9-9BD4-50EF5BBE8EED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ConsoleApp", "DesignPatterns.ConsoleApp\DesignPatterns.ConsoleApp.csproj", "{32F6BE8D-E8F2-43C9-9BD4-50EF5BBE8EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.WebApp", "RabbitMQ.WebApp\RabbitMQ.WebApp.csproj", "{C314DD4C-5E7C-4736-9FA5-3AE090ED0FFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{32F6BE8D-E8F2-43C9-9BD4-50EF5BBE8EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32F6BE8D-E8F2-43C9-9BD4-50EF5BBE8EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32F6BE8D-E8F2-43C9-9BD4-50EF5BBE8EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C314DD4C-5E7C-4736-9FA5-3AE090ED0FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C314DD4C-5E7C-4736-9FA5-3AE090ED0FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C314DD4C-5E7C-4736-9FA5-3AE090ED0FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C314DD4C-5E7C-4736-9FA5-3AE090ED0FFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
